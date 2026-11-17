@@ -41,7 +41,7 @@ node tests/wirefix.js
 
 ## Credits
 - Music: **“Also Sprach Zarathustra”** by **Kevin MacLeod** ([incompetech.com](https://incompetech.com)), licensed under
-  [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/). Changes: tempo adjusted (≈ 0.82×), fades added.
+  [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/). Changes: short fade-in / fade-out added.
 - Typing sound effect: Pixabay (Pixabay Content License).
 - 3D: [Three.js](https://threejs.org) r147 (MIT), loaded from a CDN.
 - "n8n" is a trademark of n8n GmbH. This is an unofficial learning project and is not affiliated with or endorsed by n8n.

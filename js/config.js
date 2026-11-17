@@ -9,9 +9,9 @@
               index.html?t=60    -> start at 60s (no music)
 ------------------------------------------------------------------- */
 window.CFG = {
-  DURATION: 105,            // matches audio/zarathustra.mp3 (first 1:45)
+  DURATION: 86,             // matches audio/zarathustra.mp3 (original length, 1:26)
   // moments (seconds) where the music hits; the picture pulses with them
-  HITS: [6, 25, 50, 66],
+  HITS: [5, 21, 40, 55],
   MODAL_DELAY: 1.5,           // seconds after touchdown film ends before the first mission appears
   TITLE_HOLD: 1.2,          // seconds the WELCOME TO MARS card stays after the film ends
   AUDIO_SRC: 'audio/zarathustra.mp3',
@@ -35,19 +35,19 @@ window.CFG = {
   // head = highlighted line, body = typed description.
   TEXT: [
     { at: 0.040, end: 0.094, head: 'OVER A MILLION YEARS AGO  ·  FIRE',
-      body: 'We tamed the flame. The night stopped being the end of the day, and the cold stopped being the end of us.' },
+      body: 'We tamed the flame. The night stopped being the end of the day.' },
     { at: 0.098, end: 0.152, head: '3500 BC  ·  THE WHEEL',
-      body: 'Distance became something you could shorten. For the first time we moved faster than our own legs.' },
+      body: 'Distance became something we could shorten. We outran our own legs.' },
     { at: 0.156, end: 0.210, head: '1440  ·  THE PRINTING PRESS',
-      body: 'Knowledge escaped the few and spread to the many. Ideas began to travel faster than armies.' },
+      body: 'Knowledge escaped the few. Ideas began to outrun armies.' },
     { at: 0.214, end: 0.268, head: '1769 – 1879  ·  STEAM AND ELECTRICITY',
-      body: 'Engines that never tire. Light that never sleeps. The world shrank, and our ambitions did not.' },
+      body: 'Engines that never tire. Light that never sleeps. The world shrank.' },
     { at: 0.272, end: 0.326, head: '1903  ·  KITTY HAWK',
-      body: 'Twelve seconds above the sand rewrote the meaning of the word impossible.' },
+      body: 'Twelve seconds above the sand rewrote the word impossible.' },
     { at: 0.330, end: 0.384, head: '1957 – 1969  ·  SPUTNIK TO APOLLO',
       body: 'In twelve years we went from a beeping sphere to footprints on the Moon.' },
-    { at: 0.388, end: 0.440, head: '1989 – 2015  ·  THE NETWORK AND THE ROCKET THAT RETURNED',
-      body: 'Every mind connected. Every booster reusable. The last excuses fell away.' },
+    { at: 0.388, end: 0.440, head: '1989 – 2015  ·  THE NETWORK  &  THE REUSABLE ROCKET',
+      body: 'Every mind connected. Every booster reusable. No excuses left.' },
 
     { at: 0.470, end: 0.560, head: 'EVERY STEP WAS A STEP TOWARD THIS',
       body: 'A thousand generations of curiosity, compressed into a single ship.' },
